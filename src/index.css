@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1200px;
+  margin: 20px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin: 20px 0;
+}
+.btn {
+  border: 1px solid silver;
+  background: none;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.btn:hover {
+  background: powderblue;
+}
+.home-input-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.money-input {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  outline: none;
+  border: 1px solid silver;
+}
+.money-pay-btn {
+  border: 1px solid silver;
+  background: none;
+  padding: 10px 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.money-pay-btn:hover {
+  background: lightgreen;
+}
+
+.contragents-list {
+  list-style: circle;
+}
+.contragents-item {
+  border: 1px solid silver;
+  padding: 7px 10px;
+  margin: 7px 0;
+  cursor: pointer;
+}
+.cards-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.cards-list-column {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0 20px;
+}
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 7px;
+  border: 1px solid silver;
+}
+.cards-item {
+  margin: 10px;
+  position: relative;
+  width: 260px;
+  height: 130px;
+  cursor: pointer;
+  margin-right: 30px;
+  color: rgb(93, 93, 93);
+}
+.card-number {
+  position: absolute;
+  top: 25%;
+  right: 20%;
+}
+.card-name {
+  position: absolute;
+  bottom: 10%;
+  left: 4%;
+}
+.card-exp {
+  position: absolute;
+  bottom: 10%;
+  right: 4%;
+}
+.card-balance {
+  position: absolute;
+  top: 45%;
+  right: 28%;
+}
+.chip-img {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 5px;
+}
+.title {
+  margin: 10px 0;
+  text-align: center;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 20px;
+  flex-wrap: wrap-reverse;
+}
+.edit-cards-menu {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-editing-input {
+  margin: 5px 0;
+  width: 300px;
+  padding: 5px;
+  border: 1px solid silver;
+  outline: none;
+}
+.card-editing-form {
+  border: 1px solid silver;
+  padding: 20px;
+  margin: 20px 10px;
+}
+
+.card-editing-form label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.info {
+  margin: 10px;
+  color: gray;
+}
+.none {
+  display: none;
+}
+.contragent-item {
+  margin: 20px 10px;
+  border: 1px solid silver;
+  padding: 20px 10px;
+  cursor: pointer;
+}
+.contragents-item:hover {
+  background: rgb(243, 243, 243);
+}
+.contragent-name,
+.card-item-balance,
+.green {
+  color: seagreen;
+  font-weight: bold;
+  margin-right: 2px;
+}
+.cardItemDetails {
+  margin: 40px 20px;
+  padding: 20px;
+  border: 1px solid silver;
+  text-align: center;
+  position: relative;
+}
+.card-item-title {
+  margin-bottom: 30px;
+}
+.close-icon {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+.details-button {
+  position: absolute;
+  width: 20%;
+  background: white;
+  border: 1px solid silver;
+  color: rgb(91, 91, 91);
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 7px 0;
+  bottom: 40%;
+  right: -10%;
+}
+.details-button:hover {
+  background: rgb(233, 233, 233);
+}
+.home-payment-info {
+  border: 1px solid silver;
+  padding: 10px;
+  text-align: center;
+}
+.home-payment-info h4 {
+  margin-bottom: 10px;
+}
+.info-inputs {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.info-input {
+  width: 45%;
+  padding: 30px 5px;
+  border: none;
+  background: rgb(243, 243, 243);
+  outline: none;
+  text-align: center;
+}
+.history {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.history-event {
+  border: 1px solid silver;
+  margin: 10px 50px;
+  padding: 10px 40px;
+}
+.event-date {
+  display: flex;
+  justify-content: flex-end;
+  border-bottom: 1px solid silver;
+  padding-bottom: 5px;
+  /* width: 50%; */
+}
+.notice {
+  color: rgb(225, 20, 20);
+}

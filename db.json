@@ -1,0 +1,225 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "number": "4465 5677 4546 7575",
+      "name": "Vasyl Petrenko",
+      "exp": "01/2025",
+      "cvv2": 321,
+      "balance": 912,
+      "creditLimit": 0,
+      "paymentSystem": "mastercard",
+      "cover": "card1.png"
+    },
+    {
+      "id": 2,
+      "number": "3455 3322 3345 9985",
+      "name": "Vasyl Petrenko",
+      "exp": "05/2025",
+      "cvv2": 998,
+      "balance": 927,
+      "creditLimit": 0,
+      "paymentSystem": "visa",
+      "cover": "card2.png"
+    },
+    {
+      "id": 3,
+      "name": "Vasyl Petrenko",
+      "number": "4562 4567 2223 5543",
+      "exp": "02/2024",
+      "cvv2": 876,
+      "balance": 1150,
+      "creditLimit": 5000,
+      "paymentSystem": "visa",
+      "cover": "card3.png"
+    },
+    {
+      "id": 4,
+      "number": "4456 2224 7778 8563",
+      "name": "Vasyl Petrenko",
+      "exp": "12/2024",
+      "cvv2": 443,
+      "balance": 244,
+      "creditLimit": 0,
+      "paymentSystem": "mastercard",
+      "cover": "card4.jpeg"
+    },
+    {
+      "number": "1234 5677 3221 6677",
+      "name": "Vasyl Petrenko",
+      "exp": "10/2026",
+      "cvv2": "245",
+      "balance": 744,
+      "creditLimit": 0,
+      "paymentSystem": "visa",
+      "cover": "card5.png",
+      "id": 5
+    }
+  ],
+  "contragents": [
+    {
+      "id": 1,
+      "name": "Marya Pavlenko",
+      "cardNumber": "6254 4637 3627 3649",
+      "balance": 1511,
+      "address": "Lorem ipsum, dolor sit amdddet consectetur adipisicing",
+      "telephone": "00939837282",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod ad quam eius! Unde nam nobis dolorum, illum tempora cupiditate."
+    },
+    {
+      "id": 2,
+      "name": "Ivan Shevchenko",
+      "cardNumber": "3456 3356 7789 2346",
+      "balance": 3270,
+      "address": "Lorem ipsum, dolor sit amet consectetur adipisicing",
+      "telephone": "00837837892",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod ad quam eius! Unde nam nobis dolorum, illum tempora cupiditate."
+    },
+    {
+      "id": 3,
+      "name": "Mykola Oleksienko",
+      "cardNumber": "5677 4322 7788 3345",
+      "balance": 3003,
+      "address": "Lorem ipsum, dolor sit amet consectetur adipisicing",
+      "telephone": "003876352728",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod ad quam eius! Unde nam nobis dolorum, illum tempora cupiditate."
+    },
+    {
+      "id": 4,
+      "name": "Olha Kravchenko",
+      "cardNumber": "4677 7765 7543 1223",
+      "balance": 3530,
+      "address": "Lorem ipsum, dolor sit amet consectetur adipisicing",
+      "telephone": "003837673822",
+      "details": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quod ad quam eius! Unde nam nobis dolorum, illum tempora cupiditate."
+    }
+  ],
+  "history": [
+    {
+      "from": "terminal",
+      "to": "4465 5677 4546 7575",
+      "date": "Mon May 08 2023 10:10:53",
+      "amount": 200,
+      "id": 1
+    },
+    {
+      "from": "3455 3322 3345 9985",
+      "to": "Ivan Shevchenko",
+      "date": "Mon May 08 2023 10:11:05",
+      "amount": 250,
+      "id": 2
+    },
+    {
+      "from": "3455 3322 3345 9985",
+      "to": "Ivan Shevchenko",
+      "date": "Mon May 08 2023 10:11:35",
+      "amount": 250,
+      "id": 3
+    },
+    {
+      "from": "4465 5677 4546 7575",
+      "to": "Marya Pavlenko",
+      "date": "Mon May 08 2023 10:21:24",
+      "amount": 30,
+      "id": 4
+    },
+    {
+      "from": "3455 3322 3345 9985",
+      "to": "Ivan Shevchenko",
+      "date": "Mon May 08 2023 10:21:33",
+      "amount": 400,
+      "id": 5
+    },
+    {
+      "from": "3455 3322 3345 9985",
+      "to": "Mykola Oleksienko",
+      "date": "Mon May 08 2023 10:21:53",
+      "amount": 33,
+      "id": 6
+    },
+    {
+      "from": "terminal",
+      "to": "4465 5677 4546 7575",
+      "date": "Mon May 08 2023 10:22:05",
+      "amount": 200,
+      "id": 7
+    },
+    {
+      "from": "terminal",
+      "to": "4465 5677 4546 7575",
+      "date": "Mon May 08 2023 10:22:13",
+      "amount": 300,
+      "id": 8
+    },
+    {
+      "from": "terminal",
+      "to": "3455 3322 3345 9985",
+      "date": "Mon May 08 2023 10:22:21",
+      "amount": 56,
+      "id": 9
+    },
+    {
+      "from": "terminal",
+      "to": "3455 3322 3345 9985",
+      "date": "Mon May 08 2023 10:22:25",
+      "amount": 66,
+      "id": 10
+    },
+    {
+      "from": "terminal",
+      "to": "3455 3322 3345 9985",
+      "date": "Mon May 08 2023 10:22:30",
+      "amount": 70,
+      "id": 11
+    },
+    {
+      "from": "terminal",
+      "to": "3455 3322 3345 9985",
+      "date": "Mon May 08 2023 10:22:34",
+      "amount": 678,
+      "id": 12
+    },
+    {
+      "from": "terminal",
+      "to": "4465 5677 4546 7575",
+      "date": "Mon May 08 2023 18:35:59",
+      "amount": 200,
+      "id": 13
+    },
+    {
+      "from": "4465 5677 4546 7575",
+      "to": "Marya Pavlenko",
+      "date": "Mon May 08 2023 18:36:15",
+      "amount": 200,
+      "id": 14
+    },
+    {
+      "from": "terminal",
+      "to": "4465 5677 4546 7575",
+      "date": "Thu May 25 2023 18:30:05",
+      "amount": 11,
+      "id": 15
+    },
+    {
+      "from": "4465 5677 4546 7575",
+      "to": "Marya Pavlenko",
+      "date": "Thu May 25 2023 18:30:11",
+      "amount": 11,
+      "id": 16
+    },
+    {
+      "from": "terminal",
+      "to": "4465 5677 4546 7575",
+      "date": "Thu May 25 2023 19:39:39",
+      "amount": 200,
+      "id": 17
+    },
+    {
+      "from": "4465 5677 4546 7575",
+      "to": "Marya Pavlenko",
+      "date": "Thu May 25 2023 19:39:51",
+      "amount": 200,
+      "id": 18
+    }
+  ]
+}
